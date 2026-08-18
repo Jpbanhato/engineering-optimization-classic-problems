@@ -409,7 +409,7 @@ void definir_problema(int num_problema) {
         problema.lim_inf[3] = 7.3; problema.lim_sup[3] = 8.3;
         problema.lim_inf[4] = 7.8; problema.lim_sup[4] = 8.3;
         problema.lim_inf[5] = 2.9; problema.lim_sup[5] = 3.9;
-        problema.lim_inf[6] = 5.0; problema.lim_sup[6] = 5.5;
+        problema.lim_inf[6] = 5.0; problema.lim_sup[6] = 5.9;
 
         problema.continuas = new bool[problema.num_variaveis] {true, true, false, true, true, true, true};
         problema.passo = new double[problema.num_variaveis] {0, 0, 0, 0, 0, 0, 0};
